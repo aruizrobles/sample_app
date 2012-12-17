@@ -9,7 +9,10 @@ group :development, :test do
 	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails', '2.10.0'
 	gem 'guard-rspec', '0.5.5'
+<<<<<<< HEAD
 
+=======
+>>>>>>> filling-in-layout
 end
 
 
@@ -31,7 +34,11 @@ group :test do
 	gem 'capybara', '1.1.2'
 	gem 'rb-fsevent', :require => false
 	gem 'guard-spork', '0.3.2'
+<<<<<<< HEAD
   gem 'spork', '0.9.0'
+=======
+	gem 'spork', '0.9.0'
+>>>>>>> filling-in-layout
 end
 
 group :production do
