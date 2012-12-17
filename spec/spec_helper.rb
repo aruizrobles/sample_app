@@ -8,10 +8,6 @@ Spork.prefork do
   # if you change any configuration or code from libraries loaded here, you'll
   # need to restart spork for it take effect.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> filling-in-layout
   # This file is copied to spec/ when you run 'rails generate rspec:install'
   ENV["RAILS_ENV"] ||= 'test'
   require File.expand_path("../../config/environment", __FILE__)
@@ -44,11 +40,7 @@ Spork.prefork do
     # rspec-rails.
     config.infer_base_class_for_anonymous_controllers = false
   end
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> filling-in-layout
 
 end
 
@@ -88,8 +80,3 @@ end
 
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> filling-in-layout

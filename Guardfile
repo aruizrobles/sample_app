@@ -16,10 +16,10 @@ guard 'rspec', :version => 2, :all_after_pass => false, :cli => '--drb' do
   watch('spec/spec_helper.rb')                        { "spec" }
   watch('config/routes.rb')                           { "spec/routing" }
   watch('app/controllers/application_controller.rb')  { "spec/controllers" }
-<<<<<<< HEAD
+
   watch('app/helpers/application_helper.rb')          { "spec" }
-=======
->>>>>>> filling-in-layout
+  watch('app/views/layouts/application.html.erb')          { "spec" }
+
   # Capybara request specs
   watch(%r{^app/views/(.+)/.*\.(erb|haml)$})          { |m| "spec/requests/#{m[1]}_spec.rb" }
 end
@@ -34,8 +34,7 @@ guard 'spork', :cucumber_env => { 'RAILS_ENV' => 'test' }, :rspec_env => { 'RAIL
   watch('Gemfile.lock')
   watch('spec/spec_helper.rb')
   watch('test/test_helper.rb')
-<<<<<<< HEAD
+
   watch('spec/support/')
-=======
->>>>>>> filling-in-layout
+
 end
